@@ -1,0 +1,27 @@
+.div1 {
+    height: 200px;
+    width: 200px;
+    background: green;
+    position: relative;
+    left: 100px;
+}
+.div2 {
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background: grey;
+    position: relative;
+}
+
+.innerdiv {
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 60px;
+}

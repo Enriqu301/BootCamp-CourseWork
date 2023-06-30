@@ -1,0 +1,17 @@
+#home_page {
+  background-color: lightblue;
+}
+
+#about_page {
+  background-color: yellow;
+}
+
+#contact_page {
+  background-color: orange;
+}
+
+.riverdale {
+  border: black 4px solid;
+  width: 33%;
+  margin: 0 auto;
+}

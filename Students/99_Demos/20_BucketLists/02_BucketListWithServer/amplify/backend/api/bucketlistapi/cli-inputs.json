@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/bucket": {
+      "name": "/bucket",
+      "lambdaFunction": "bucketlistserverlambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

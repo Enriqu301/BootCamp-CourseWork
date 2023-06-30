@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs', {doggy: 'Results Page', body_id: "home_page"}) %>
+
+    <h1>Results Page</h1>
+
+    <% console.log("cat is:",cat) %> 
+
+    <%cat.forEach(element => { %>
+    <h1> Hi my name is <%= element.name%>. <%= element.message%> </h1>
+    <%})%> 
+
+
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,9 @@
+Steps:
+
+Go through the steps of creating a new application with express.js and EJS installed
+Have a views folder and a partials folder
+The partials folder should contain two files: header.ejs and footer.ejs
+The header.ejs file should contain the top part of your HTML code, including the nav bar
+The footer.ejs’ file should contain the bottom part of your HTML code, including the footer links
+You will also have three other files: home.ejs, about.ejs, and contact.ejs.
+Use bootstrap for styling. Use the jumbotron and breadcrumb classes for creating the body and footer.

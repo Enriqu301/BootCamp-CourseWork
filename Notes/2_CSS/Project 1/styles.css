@@ -1,0 +1,98 @@
+/*
+Create an h1 tag with a class of cat and an id of dog.
+Add some content.
+Using the tag, add a solid red border of 5px
+Using the class, change the background color to black
+Using the id, change the content color to white
+How does this look in your browser?
+    red border. White text
+*/
+.cat {
+    background-color: black
+}
+#dog {
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 700px;
+}
+
+
+
+
+/* 
+Task #2 - Selectors
+
+1. Create another h1 tag, this time with a class of cat and an id of mouse.
+2. Add some content.
+Look at your browser. What do you notice? Why?
+    its white the text is not able to be seen
+
+Using the id, change the content color to yellow.
+    contents are yellow now 
+Change the border color to blue, dashed and 5px.
+
+*/
+#mouse{
+    color: yellow;
+    border-style:solid; border-color: blue;
+    width: 200px;
+    
+}
+
+/*
+Task #3 - Selectors
+
+1. Create another h1 tag, this time with a class of cat and an id of bird.
+2. Add some content.
+3. Look at your browser. What do you notice? Why?
+    black box. Because .cat background color black. 
+4. Using the id, change the content color to lightgreen.
+5. Change the border so it has a color of green ridged and 5px;
+*/
+#bird{
+    color: lightgreen;
+    border-style:solid; border-color: green; border-width: 5px;
+    width: 50vw;
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 450px;
+}
+
+
+/*
+Task #4 - Width
+
+1. Add a width of 25% to your first h1.
+2. Add a width of 200px to your second h1.
+3. Add a width of 50 viewer width (vw) to third h1.
+4. Resize your browser.
+5. What do you notice? What are the differences between %, px, and vw? Why are they important?
+    some change while others do not
+*/
+
+
+/*
+Task #5 - Text
+
+Using your first h1, align your text so it is centered.
+Using your third h1, align the text so it is on the right.
+*/
+
+
+/*
+Task #6 - Margin
+
+Using margin, center the first h1 in the middle of your screen.
+Using margin, center the third h1 in the middle of your screen and add a top margin of 100 pixels and bottom of 0 pixels.
+Create a fourth h1 tag, this time with a class of cat and an id of horse.
+Add some content with an orange color.
+Using margin, center the fourth h1 in the middle of the screen.
+What happened? Why? How do you fix so you can center it?
+*/
+

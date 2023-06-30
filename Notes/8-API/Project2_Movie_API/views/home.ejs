@@ -1,0 +1,16 @@
+<%- include('partials/header.ejs', {title: 'Home Page'}) %>
+
+        <h1>Welcome to the home page!</h1>
+        <form>
+                <button formaction="/getMovies" formmethod="get">Submit</button>        
+        </form>
+        <div>
+                <% data.forEach(el => { %>
+                        <h1><%= el.title %></h1>
+                        <% let imageSrc = `https://image.tmdb.org/t/p/w200${el.poster_path}` %> 
+                        <img src="<%=imageSrc  %>"
+                        <p><%= el.overview %></p>        
+                <% }) %>
+        </div>
+        
+

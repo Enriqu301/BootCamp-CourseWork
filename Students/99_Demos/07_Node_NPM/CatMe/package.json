@@ -1,0 +1,21 @@
+{
+  "name": "catme",
+  "version": "1.0.0",
+  "description": "This is the best travel cat and dog show package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dog",
+    "cat",
+    "travel",
+    "fun",
+    "doggyhorse"
+  ],
+  "author": "Jon-Mikel",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3"
+  }
+}

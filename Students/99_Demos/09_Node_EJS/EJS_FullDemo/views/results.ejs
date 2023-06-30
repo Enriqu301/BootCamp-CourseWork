@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs', {doggy: 'Results Page', body_id: "home_page"}) %>
+
+    <h1>I am the Results page</h1>
+
+    <%#console.log("Cat is:",cat) %>
+    
+    <% cat.forEach(element =>{ %>
+      <div class="riverdale">
+       
+        <h1>Full Name:</h1>
+        <h2><%= `${element.fname} ${element.lname}`%></h2>
+        <h2><%= getName(element.fname, element.lname) %></h2>
+        <h1> Is <%= element.niceGuy ? "" : "NOT"%> a nice guy </h1>
+      </div>
+    <% }) %>
+    
+<%- include('partials/footer.ejs') %>

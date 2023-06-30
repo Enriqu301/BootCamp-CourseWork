@@ -1,0 +1,23 @@
+h1:hover {
+    background-color: red;
+}
+
+button:hover {
+    color: blue;
+}
+
+input:focus {
+    padding-bottom: 100px;
+}
+
+input:focus {
+    background-color: red;
+}
+
+button:active {
+    background-color: burlywood;
+}
+
+h1:active {
+    font-size: 100px;
+}

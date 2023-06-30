@@ -1,0 +1,18 @@
+#background1 {
+    background: url(tarmo-juhola-cyberpunkcity-kopio.jpg) center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#message {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}

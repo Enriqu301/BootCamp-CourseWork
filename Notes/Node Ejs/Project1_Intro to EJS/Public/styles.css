@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: red;
+}
+
+
+#menu {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+
+ul#horizon-list li {
+    display: inline;
+}

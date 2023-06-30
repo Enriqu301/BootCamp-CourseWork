@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bucketlistserver-dev-164445-authRole",
+      "UnauthRoleArn": "arn:aws:iam::839517242093:role/amplify-bucketlistserver-dev-164445-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::839517242093:role/amplify-bucketlistserver-dev-164445-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bucketlistserver-dev-164445-deployment",
+      "UnauthRoleName": "amplify-bucketlistserver-dev-164445-unauthRole",
+      "StackName": "amplify-bucketlistserver-dev-164445",
+      "StackId": "arn:aws:cloudformation:us-east-1:839517242093:stack/amplify-bucketlistserver-dev-164445/190a45f0-69ee-11ed-a9a7-0e1e21737379",
+      "AmplifyAppId": "d2y7iqa255wcyp"
+    },
+    "categories": {
+      "function": {
+        "bucketlistserverlambda": {
+          "nodeEnv": "dev",
+          "deploymentBucketName": "amplify-bucketlistserver-dev-164445-deployment",
+          "s3Key": "amplify-builds/bucketlistserverlambda-644f4f416672482b662b-build.zip"
+        }
+      },
+      "api": {
+        "bucketlistapi": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>What should we do?</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Activity Generator</h1>
+        <!-- First Activity  -->
+        <div class="activity-div">
+            <form action="/random" method="get">
+                <input type="submit" value="Random" class="btn btn-random">
+            </form>
+            <p>Click the button to generate a random activity</p>
+        </div>
+        <!-- Second Activity  -->
+        <div class="activity-div">
+            <form action="/selected" method="get">
+            <!-- ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"] -->
+            <select name="type" id="type">
+                <% types.forEach(type => { %>
+                    <option value="<%=type%>">
+                        <%=type%>
+                    </option>
+                <% }) %>
+            </select>
+
+            <input type="submit" value="Generate activity!" class="btn btn-random">
+            </form>
+            <p>Select a category to generate an activity</p>
+        </div>
+
+    </div>
+</body>
+</html>

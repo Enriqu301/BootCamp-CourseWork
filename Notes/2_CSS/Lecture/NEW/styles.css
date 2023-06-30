@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+}
+
+/* outer div or outer box */
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* innner box or inner div */
+.text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}

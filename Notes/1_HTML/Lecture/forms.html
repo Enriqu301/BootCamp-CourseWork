@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form>
+            <p>Name</p>
+            <input type="text" placeholder="Enter Name here" name="username" required>
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password here" name="password" minlength="5" maxlength="20" required>
+            <p>Email</p><input type="email" name="email">
+            <p>Phone</p><input type="tel"name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"title="Format 555-555-5555">
+            <input type="submit">
+        </form>
+        <br>
+        <br>    
+        <form>
+            <h1>Summer Camp Form</h1>
+            <label for="">First Name</label>
+            <input type="text"name="username" required>
+            <label for="">Last Name</label>
+            <input type="text"name="username" required><br>
+            <br>
+            <label for="">Email</label>
+            <input type="email" name="email" required>
+            <label>Password</label>
+            <input type="password"name="password" minlength="5" maxlength="20" required>
+            <p>Select a month:</p>
+                <input type="radio" >
+                <label for="June">June</label><br>
+                <input type="radio">
+                <label for="July">July</label><br>
+                <input type="radio">
+                <label for="August">August</label>
+        </form>
+
+        <h1>Summer Camp Form</h1>
+        <form action="">
+            <div>
+                <label for="first">first</label>
+                <input type="text" id="first" name="firstname" required>
+                <label for="">Last Name</label>
+                <input type="text" id="last" name="lastname" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"required>
+            </div>
+            <p>Select a Month:</p>
+            <div>
+                <input type="radio" name="month" id="june" value="june">
+                <label for="june">June</label>
+            </div>
+            <div>
+                <input type="radio" name="month" id="July" value="July">
+                <label for="July">July</label>
+            </div>
+            <div>
+                <input type="radio" name="month" id="August" value="August">
+                <label for="August">August</label>
+            </div>
+            <br>
+            <div>
+                <label for="age">Select Age Group</label>
+                    <select name="age" id="age">
+                        <option value="kids">Under18</option>
+                        <option value="youngadult">18-30</option>
+                        <option value="Adults">30-50</option>
+                        <option value="seniors">50+</option>
+                    </select>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>

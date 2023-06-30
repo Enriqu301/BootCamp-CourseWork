@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What should we do?</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Activity Generator</h1>
+            <div class="activity-div">
+                <form action="/random" method="get">
+                    <input type="submit" value="Random" class="btn">
+                </form>
+                <p>Click Button For Random Event</p>
+            </div>
+            <div class="activity-div">
+                <form action="/selected" method="get">
+                    <select name="type" id="type">
+                    <% types.forEach(type => {%>
+                        <option value="<%=type%>"><%=type%></option>
+                    <%})%>
+                    </select>
+                    <input type="submit" value="GO!" class="btn">
+                    <p>Select a category</p>
+                </form>
+            </div>
+
+            <div class="activity-div">
+                <form action="/participants" method="get">
+                    <input type="number" name="number" id="number" min="1">
+                    <input type="submit" value="Go!" class="btn">
+                    <p>Choose number of homies</p>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>

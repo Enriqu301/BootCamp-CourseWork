@@ -1,0 +1,23 @@
+import React from 'react';
+
+function MovieComponent(){
+    return(
+        <div>
+            <h1 className='header'>Now Playing</h1>
+            <div className="container">
+                <div className="box">
+                    <img src="/images/BladeRunner.jpg" alt="Blade Runner Poster"/>
+                        <h2>Blade Runner</h2>
+                        <p>Directed by: </p>
+                </div>
+                <div className="box">
+                <img src="/images/BladeRunner2049.jpg" alt="Blade Runner 2049 Poster"/>
+                </div>
+                <div className="box">
+                <img src="/images/DayOff.jpg" alt="Day Off Poster"/>
+                </div>
+            </div>
+        </div>
+    )
+}
+export default MovieComponent; 

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin Home</title>
+</head>
+<body>
+  <h1>Bitcoin App</h1>
+  <form action="/getPrice" method="GET">
+    <input type="radio" name="country" id="" value="USD" checked>USD
+    <input type="radio" name="country" id="" value="GBP">GBP
+    <input type="radio" name="country" id="" value="EUR">EUR
+    <button type="submit">Get Price</button>
+  </form>
+
+  <p> Rate: 
+    <%- symbol %>
+    <%= rate_float %></p>
+
+</body>
+</html>

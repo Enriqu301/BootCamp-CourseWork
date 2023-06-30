@@ -1,0 +1,22 @@
+<%- include('partials/header.ejs', {doggy: 'Contact Page', body_id: "contact_page", cat: ""})  %> 
+
+<h1>I am the Contact page</h1>
+
+<form action="/doggy" method="get">
+  <label for="">
+    First Name:
+    <input type="text" name="fname">
+  </label>
+  <label for="">
+    Last Name:
+    <input type="text" name="lname">
+  </label>
+  <label for="">
+    Are you a nice guy?
+    <input type="radio" name="nice" id="" value="yes" checked>Yes
+    <input type="radio" name="nice" id="" value="no">No
+  </label>
+  <button type="submit">SUBMIT</button>
+</form>
+
+<%- include('partials/footer.ejs') %> 
